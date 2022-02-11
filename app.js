@@ -27,7 +27,7 @@ start.addEventListener('click', () => {
                             }else{
                                 timer_hour++;
                                 timer_min = 0;
-             }}}
+                            }}}
              
         ssecs.innerHTML = timer_ssec;
         secs.innerHTML = timer_sec;
