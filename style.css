@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: rgb(17, 1, 1);
+}
+
+#timer {
+    width: 100vw;
+    display: flex;
+    padding: auto;
+    font-size: 5vw;
+    text-align: center;
+
+}
+
+.timer-elements {
+
+    width: 20vw;
+    height: 20vh;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: auto;
+    background-color: cadetblue;
+}
+
+#buttons {
+    margin: 1rem auto;
+    align-items: center;
+    position: relative;
+}
+
+#start {
+    position: absolute;
+    left: 20%;
+    width: 15vw;
+    height: 10vh;
+    font-size: 3vw;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: lightsalmon;
+}
+
+#stop {
+    position: absolute;
+    left: 45%;
+    width: 15vw;
+    height: 10vh;
+    font-size: 3vw;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: lightsalmon;
+}
+
+#reset {
+    position: absolute;
+    left: 70%;
+    width: 15vw;
+    height: 10vh;
+    font-size: 3vw;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: lightsalmon;
+}
